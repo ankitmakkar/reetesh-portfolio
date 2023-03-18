@@ -58,6 +58,10 @@
   overflow: hidden;
 }
 
+.about .heading{
+  font-size: 3.5rem !important;
+}
+
 .cta-btn span:nth-child(1) {
   position: absolute;
   top: 0;
@@ -162,7 +166,7 @@
     padding: 0 2rem;
   }
   .heading {
-    font-size: 2.5em;
+    font-size: 3em;
   }
   .secondary-heading,
   .description {

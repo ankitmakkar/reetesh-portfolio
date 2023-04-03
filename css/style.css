@@ -164,15 +164,13 @@ header {
   position: relative;
 }
 .service {
-  margin: 100px 0 0;
+  /* margin: 100px 0 0; */
   padding: 100px 0 0;
 }
 .service-list-container {
-  margin: 100px 0;
+  margin: 90px 0;
 }
-.service .heading {
-  margin-bottom: 70px;
-}
+
 .s-item-container {
   justify-content: center;
   align-items: center;
@@ -276,14 +274,12 @@ header {
   );
   width: 100%;
 }
-.portfolio-container {
-  margin: 150px 0;
-}
+
 .portfolio {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 50px 0 0;
+  margin: 90px 0 ;
 }
 .pv1 {
   flex-basis: 48%;
@@ -344,7 +340,7 @@ header {
 }
 .skill-list {
   max-width: 1180px;
-  margin: 70px auto;
+  margin: 90px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 2rem 1.4rem;
@@ -458,7 +454,7 @@ textarea {
 }
 .footer {
   margin: 10px 0 0;
-  padding: 20px 0;
+  padding: 30px 0;
   z-index: 1;
   width: 100%;
   color: #ffffff;
@@ -466,26 +462,34 @@ textarea {
   backdrop-filter: blur(10px);
   font-family: "League Spartan", sans-serif;
 }
-.content {
-  display: flex;
-  align-items: center;
+.copyright {
+  text-align: center;
 }
-.content > img {
-  width: 40%;
-  margin-top: -5px;
+
+.cta-box-bg{
+  background: linear-gradient(
+    60deg,
+    rgba(190, 190, 190, 0.195),
+    rgba(255, 255, 255, 0.107)
+  );
+  padding:100px 20px;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 8px rgba(255, 255, 255, 0.737),
+    inset -1px -1px 8px #000;
+  z-index: 4;
+  transition: 0.2s all ease;
+  margin: 100px 0;
 }
-.social-links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.social-links a {
-  flex-basis: 10%;
-}
-.social-links img {
-  width: 50%;
-  transition: 0.5s all ease;
-}
-.social-links img:hover {
-  box-shadow: 0 0 10px #000;
+.cta-box-heading{
+  font-size: 45px;
+  background: 0 0;
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height:30px ;
+  text-align: center;
+  margin-bottom: -10px;
+
+  color: #fff;
 }

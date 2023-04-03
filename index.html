@@ -9,7 +9,7 @@
         crossorigin=anonymous
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         referrerpolicy=no-referrer>
-    <link href=image/fav.png rel="shortcut icon" type=image/x-icon>
+    <link href=image/favicon.png rel="shortcut icon" type=image/x-icon>
     <link href=css/utility.css rel=stylesheet>
     <link href=css/style.css rel=stylesheet>
     <link href=css/tabscreen.css rel=stylesheet>
@@ -21,7 +21,7 @@
 
     <section class=mynav>
         <div class=container>
-            <div class=navbar-container id=navbar-container><img src=image/funnel-fighter.png alt class=logo>
+            <div class=navbar-container id=navbar-container><img src=image/logo.png alt class=logo>
                 <nav class=navbar>
                     <ul class=nav-list>
                         <li><a href=#about class=nav-link id=nav-link1>About</a>
@@ -31,8 +31,8 @@
                         <li><a href=#contact class=nav-link id=nav-link5>Contact</a>
                     </ul>
                 </nav>
-                <div class=mobile-navbar-btn id=label><img src=image/open.png alt class=mobile-nav-icon name=open> <img
-                        src=image/close.png alt class=mobile-nav-icon name=close></div>
+                <div class=mobile-navbar-btn id=label><img src=image/open.png alt style="filter:invert(100%)" class=mobile-nav-icon name=open> <img
+                        src=image/close.png alt class=mobile-nav-icon style="filter:invert(100%)" name=close></div>
             </div>
         </div>
     </section>
@@ -59,7 +59,7 @@
         <div class=container>
             <div class="flex about-container">
                 <div class="flex-basis about-img">
-                    <div class=image-box></div><img src=image/myimg.jpg alt>
+                    <div class=image-box></div><img src=image/myimg.jpg alt>`
                 </div>
                 <div class="flex-basis about-content">
                     <h3 class=secondary-heading>Hey, nice to meet you! 👋</h3>
@@ -262,39 +262,19 @@
             </div>
         </div>
     </section>
-    <section class=contact id=contact>
-        <div class=container>
-            <h4 class=secondary-heading>Contact Us</h4>
-            <h1 class=heading>Get Connected</h1>
-            <div class="flex contact-container">
-                <div class=contact-img><img src=image/contact.png alt></div>
-                <div class=contact-form>
-                    <div class="flex input-container row">
-                        <div class=col-xs-12>
-                            <div class="styled-input wide"><input required><label class=contact-label>Name</label></div>
-                        </div>
-                        <div class=col-xs-12 *>
-                            <div class="styled-input wide"><input required type=email><label
-                                    class=contact-label>Email</label></div>
-                        </div>
-                        <div class=col-xs-12>
-                            <div class="styled-input wide"><input required type=number><label class=contact-label>Phone
-                                    Number</label></div>
-                        </div>
-                        <div class=col-xs-12>
-                            <div class="styled-input wide"><textarea required></textarea><label
-                                    class=contact-label>Message</label></div>
-                        </div>
-                        <div class="cta-container">
-                            <a href="https://calendly.com/ankitmakkar/bookacall" class="cta-btn" target="_blank">
-                                <span> </span>
-                                <span> </span>
-                                <span> </span>
-                                <span> </span>
-                                Send Message
-                            </a>
-                        </div>
-                    </div>
+    <section class="cta-box">
+
+        <div class="container">
+            <div class="cta-box-bg">
+                <h1 class="cta-box-heading">Ready To Scale Your Business?? </h1>
+                <div class="cta-container">
+                    <a href="https://calendly.com/ankitmakkar/bookacall" class="cta-btn" target="_blank">
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                        Book a FREE Discovery Call
+                    </a>
                 </div>
             </div>
         </div>
@@ -302,11 +282,9 @@
     <hr>
     <footer class=footer>
         <div class=container>
-            <div class="flex inner-footer">
-                <div class="flex-basis content"><img src=image/funnel-fighter.png alt>
-                    <p class=copyright>COPYRIGHTS @ 2022 | FUNNEL FIGHTER
-                </div>
-        </div>
+            <div class="inner-footer">
+                <p class="copyright">COPYRIGHTS @ 2022 | REETESH BHARDWAJ</p>
+            </div>
     </footer>
     <script src=js/script.js></script>
 </body>
